@@ -30,8 +30,9 @@ This repository includes solutions from the following platforms:
 
 Solutions are implemented in the following programming languages:
 
-* **Python:** (e.g., `*.py`)
+* **Typescript:** (e.g., `*.ts`)
 * **JavaScript:** (e.g., `*.js`)
+And Soon... (maybe...)
 * **C++:** (e.g., `*.cpp`)
 * **Java:** (e.g., `*.java`)
 * **TypeScript:** (e.g. `*.ts`)
