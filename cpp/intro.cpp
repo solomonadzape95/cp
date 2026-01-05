@@ -14,6 +14,7 @@ int main() {
   return 0;
 }
 
+// use of the forward declaration
 string greet(int hourTime) {
 if(hourTime < 12) return "Good Morning";
 else return "Good Afternoon";
