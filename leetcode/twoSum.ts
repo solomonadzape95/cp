@@ -1,4 +1,4 @@
-function twoSum(numbers: number[], target: number): number[] | undefined {
+function prevtwoSum(numbers: number[], target: number): number[] | undefined {
   const numMap: { [key: number]: number } = {};
 
   for (let i = 0; i < numbers.length; i++) {
@@ -11,3 +11,5 @@ function twoSum(numbers: number[], target: number): number[] | undefined {
     numMap[numbers[i]] = i;
   }
 }
+
+console.log(prevtwoSum([2, 11, 7, 15], 9));
