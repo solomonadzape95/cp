@@ -42,13 +42,12 @@
 
 function removeDuplicates(nums: number[]): number {
     if (nums.length === 0) return 0;
-
-    let k: number = 1;
-    for (let i = 0; i < nums.length - 1; i++) {
-        if (nums[i] !== nums[i + 1]) {
-            nums[k] = nums[i + 1];
-            k++;
+    let left = 0;
+    for(let right = 1; right < nums.length; right++){
+        if(nums[left] != nums[right]){
+            left = left + 1;
+            nums[left] = nums[right]
         }
     }
-    return k;
+    return left + 1;
 };
